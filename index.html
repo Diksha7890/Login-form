@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="user-details" class="form" novalidate required>
+            <h2 class="heading">Registration Form</h2>
+            <label>
+                <h2>Name</h2>
+                <input type="text" class="user-input" id="user-name" placeholder="Enter your Name" />
+                <p class="name-error"></p>
+            </label>
+            <label>
+                <h2>Email</h2>
+                <input type="email" class="user-input" id="user-email" placeholder="Enter your email" />
+                <p class="email-error"></p>
+            </label>
+            <label>
+                <h2>Password</h2>
+                <input type="password" class="user-input" id="user-password" placeholder="Enter Password" />
+                <p class="password-error"></p>
+            </label>
+            <label>
+                <h2>Confirm Password</h2>
+                <input type="password" class="user-input" id="confirm-password" placeholder="Enter Password" />
+                <p class="confirm-error"></p>
+            </label>
+            <button type="Submit" class="submit-btn">Log In</button>
+        </form>
+    </div>
+
+    <script src="./function.js"></script>
+</body>
+
+</html>
